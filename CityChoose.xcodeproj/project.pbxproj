@@ -15,6 +15,8 @@
 		FBCE6BBF1CE5BF0900FA5006 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBCE6BBD1CE5BF0900FA5006 /* LaunchScreen.storyboard */; };
 		FBCE6BCA1CE5BF0900FA5006 /* CityChooseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCE6BC91CE5BF0900FA5006 /* CityChooseTests.m */; };
 		FBCE6BD51CE5BF0900FA5006 /* CityChooseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCE6BD41CE5BF0900FA5006 /* CityChooseUITests.m */; };
+		FBCE6BEC1CE5C0D800FA5006 /* city.plist in Resources */ = {isa = PBXBuildFile; fileRef = FBCE6BE91CE5C0D800FA5006 /* city.plist */; };
+		FBCE6BED1CE5C0D800FA5006 /* CityChooseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCE6BEB1CE5C0D800FA5006 /* CityChooseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		FBCE6BD01CE5BF0900FA5006 /* CityChooseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CityChooseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBCE6BD41CE5BF0900FA5006 /* CityChooseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityChooseUITests.m; sourceTree = "<group>"; };
 		FBCE6BD61CE5BF0900FA5006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBCE6BE91CE5C0D800FA5006 /* city.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = city.plist; sourceTree = "<group>"; };
+		FBCE6BEA1CE5C0D800FA5006 /* CityChooseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityChooseViewController.h; sourceTree = "<group>"; };
+		FBCE6BEB1CE5C0D800FA5006 /* CityChooseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityChooseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,7 @@
 		FBCE6BAE1CE5BF0900FA5006 /* CityChoose */ = {
 			isa = PBXGroup;
 			children = (
+				FBCE6BE81CE5C0D800FA5006 /* YoYoCityChoose */,
 				FBCE6BB21CE5BF0900FA5006 /* AppDelegate.h */,
 				FBCE6BB31CE5BF0900FA5006 /* AppDelegate.m */,
 				FBCE6BB51CE5BF0900FA5006 /* ViewController.h */,
@@ -138,6 +144,16 @@
 				FBCE6BD61CE5BF0900FA5006 /* Info.plist */,
 			);
 			path = CityChooseUITests;
+			sourceTree = "<group>";
+		};
+		FBCE6BE81CE5C0D800FA5006 /* YoYoCityChoose */ = {
+			isa = PBXGroup;
+			children = (
+				FBCE6BE91CE5C0D800FA5006 /* city.plist */,
+				FBCE6BEA1CE5C0D800FA5006 /* CityChooseViewController.h */,
+				FBCE6BEB1CE5C0D800FA5006 /* CityChooseViewController.m */,
+			);
+			path = YoYoCityChoose;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBCE6BBF1CE5BF0900FA5006 /* LaunchScreen.storyboard in Resources */,
+				FBCE6BEC1CE5C0D800FA5006 /* city.plist in Resources */,
 				FBCE6BBC1CE5BF0900FA5006 /* Assets.xcassets in Resources */,
 				FBCE6BBA1CE5BF0900FA5006 /* Main.storyboard in Resources */,
 			);
@@ -272,6 +289,7 @@
 			files = (
 				FBCE6BB71CE5BF0900FA5006 /* ViewController.m in Sources */,
 				FBCE6BB41CE5BF0900FA5006 /* AppDelegate.m in Sources */,
+				FBCE6BED1CE5C0D800FA5006 /* CityChooseViewController.m in Sources */,
 				FBCE6BB11CE5BF0900FA5006 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
